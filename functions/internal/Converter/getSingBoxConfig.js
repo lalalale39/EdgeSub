@@ -31,6 +31,11 @@ const BasicSingBoxConfig = {
             inet6_address: "fdfe:dcba:9876::1/126",
             auto_route: true,
             strict_route: false,
+        },
+         {
+            "type": "mixed",
+            "listen": "::",
+            "listen_port": 10000
         }
     ],
     experimental: {
